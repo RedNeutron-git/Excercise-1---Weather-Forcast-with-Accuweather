@@ -5,4 +5,3 @@ Feel free, if you need it and modify it, cheers!
 
 # System Requirement:
 `apt install jq -y`
-'apt install jq -y'
