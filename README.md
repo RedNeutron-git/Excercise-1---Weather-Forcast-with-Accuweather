@@ -1,5 +1,5 @@
 # Desclaimer
-I made this script not for business purpose, just an excercise
+I made this script not for business purpose, just an excercise\n
 This script was inspired by Accuweather https://www.accuweather.com/
 
 Feel free, if you need it and modify it, cheers!
