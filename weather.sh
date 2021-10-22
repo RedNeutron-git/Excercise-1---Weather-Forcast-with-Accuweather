@@ -15,7 +15,7 @@ suhuraw=$(curl -i -s -k -X $'GET' -H $'Host: www.accuweather.com' -H $'User-Agen
 suhuparsing1=$(echo $suhuraw | awk '{gsub("var recentLocations = ", "");print}') #Delete unnecessary 2
 suhuparsing2=$(echo $suhuparsing1 | awk '{gsub(";", "");print}') #Delete unnecessary 3
 echo "----------------------------------------------"
-echo -e "Laporan Cuaca Sederhana\n"
+echo -e "Simple Weather Forecast\n"
 echo $suhuparsing2 | jq ".[].localizedName" #View area
 echo $suhuparsing2 | jq ".[].temp" #View temperature
 echo "----------------------------------------------"
